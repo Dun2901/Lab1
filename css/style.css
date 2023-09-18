@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+td,
+th {
+  text-align: left;
+  padding: 8px;
+}
+
+.header {
+  background-color: gainsboro;
+  height: 120px;
+}
+
+.container {
+  display: flex;
+}
+
+.left_side {
+  background-color: yellow;
+  height: 220px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.right_side {
+  flex: 1;
+}
+
+.footer {
+  background-color: gainsboro;
+  height: 120px;
+}
